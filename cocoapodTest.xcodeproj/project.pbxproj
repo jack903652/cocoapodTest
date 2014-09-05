@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ABE136DF3FF4CA4903E3065 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B920186C202A48BBB7BA7B1E /* libPods.a */; };
+		73A141F719B848B8007E27C5 /* microsoftYahei.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73A141F619B848B8007E27C5 /* microsoftYahei.ttf */; };
+		73A1421919B869CB007E27C5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A1421819B869CB007E27C5 /* CoreLocation.framework */; };
 		73A5FEF519B6FB6700E99A3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A5FEF419B6FB6700E99A3D /* Foundation.framework */; };
 		73A5FEF719B6FB6700E99A3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A5FEF619B6FB6700E99A3D /* CoreGraphics.framework */; };
 		73A5FEF919B6FB6700E99A3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A5FEF819B6FB6700E99A3D /* UIKit.framework */; };
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73A141F619B848B8007E27C5 /* microsoftYahei.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = microsoftYahei.ttf; sourceTree = "<group>"; };
+		73A1421819B869CB007E27C5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		73A5FEF119B6FB6700E99A3D /* cocoapodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocoapodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A5FEF419B6FB6700E99A3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73A5FEF619B6FB6700E99A3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		73A5FF1B19B6FB6700E99A3D /* cocoapodTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cocoapodTestTests-Info.plist"; sourceTree = "<group>"; };
 		73A5FF1D19B6FB6700E99A3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73A5FF1F19B6FB6700E99A3D /* cocoapodTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodTestTests.m; sourceTree = "<group>"; };
+		B920186C202A48BBB7BA7B1E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F0D41B8DB44D34AE0D08BE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +67,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A1421919B869CB007E27C5 /* CoreLocation.framework in Frameworks */,
 				73A5FEF719B6FB6700E99A3D /* CoreGraphics.framework in Frameworks */,
 				73A5FEF919B6FB6700E99A3D /* UIKit.framework in Frameworks */,
 				73A5FEF519B6FB6700E99A3D /* Foundation.framework in Frameworks */,
+				5ABE136DF3FF4CA4903E3065 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +95,7 @@
 				73A5FF1919B6FB6700E99A3D /* cocoapodTestTests */,
 				73A5FEF319B6FB6700E99A3D /* Frameworks */,
 				73A5FEF219B6FB6700E99A3D /* Products */,
+				C5F0D41B8DB44D34AE0D08BE /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +111,12 @@
 		73A5FEF319B6FB6700E99A3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73A1421819B869CB007E27C5 /* CoreLocation.framework */,
 				73A5FEF419B6FB6700E99A3D /* Foundation.framework */,
 				73A5FEF619B6FB6700E99A3D /* CoreGraphics.framework */,
 				73A5FEF819B6FB6700E99A3D /* UIKit.framework */,
 				73A5FF1319B6FB6700E99A3D /* XCTest.framework */,
+				B920186C202A48BBB7BA7B1E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +129,7 @@
 				73A5FF0619B6FB6700E99A3D /* Main.storyboard */,
 				73A5FF0919B6FB6700E99A3D /* ViewController.h */,
 				73A5FF0A19B6FB6700E99A3D /* ViewController.m */,
+				73A141F619B848B8007E27C5 /* microsoftYahei.ttf */,
 				73A5FF0C19B6FB6700E99A3D /* Images.xcassets */,
 				73A5FEFB19B6FB6700E99A3D /* Supporting Files */,
 			);
@@ -159,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73A5FF2319B6FB6700E99A3D /* Build configuration list for PBXNativeTarget "cocoapodTest" */;
 			buildPhases = (
+				0E51816A976442689B656962 /* Check Pods Manifest.lock */,
 				73A5FEED19B6FB6700E99A3D /* Sources */,
 				73A5FEEE19B6FB6700E99A3D /* Frameworks */,
 				73A5FEEF19B6FB6700E99A3D /* Resources */,
+				288B45A08958464688A0C9FA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A141F719B848B8007E27C5 /* microsoftYahei.ttf in Resources */,
 				73A5FF0D19B6FB6700E99A3D /* Images.xcassets in Resources */,
 				73A5FEFF19B6FB6700E99A3D /* InfoPlist.strings in Resources */,
 				73A5FF0819B6FB6700E99A3D /* Main.storyboard in Resources */,
@@ -243,6 +259,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E51816A976442689B656962 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		288B45A08958464688A0C9FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		73A5FEED19B6FB6700E99A3D /* Sources */ = {
@@ -373,6 +422,7 @@
 		};
 		73A5FF2419B6FB6700E99A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F0D41B8DB44D34AE0D08BE /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +436,7 @@
 		};
 		73A5FF2519B6FB6700E99A3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F0D41B8DB44D34AE0D08BE /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +507,7 @@
 				73A5FF2519B6FB6700E99A3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73A5FF2619B6FB6700E99A3D /* Build configuration list for PBXNativeTarget "cocoapodTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +516,7 @@
 				73A5FF2819B6FB6700E99A3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
