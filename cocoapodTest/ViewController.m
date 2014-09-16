@@ -20,6 +20,11 @@
     [super viewDidLoad];
     
     
+    
+    
+    
+    
+    
     _locationManager =[[CLLocationManager alloc] init];
     
     _locationManager.delegate = self;
